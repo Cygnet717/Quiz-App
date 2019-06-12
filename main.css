@@ -45,12 +45,21 @@ html {
         
    }
 
+   img {
+       max-height: 200px;
+   }
+
+   .hide {
+       display: none;
+   }
+
    .changing-content-box {
         margin-left: auto;
         margin-right: auto;
-        width: fit-content;
-        padding-top: 175px;
-        padding-bottom: 175px;
-        padding-left: 400px;
-        padding-right: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 800px;
+        height: 350px;
+        border: 1px solid green;
    }

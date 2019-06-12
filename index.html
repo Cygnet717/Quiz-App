@@ -3,10 +3,12 @@
     <head>
         <title>Movie Quiz App</title>
         <link rel="stylesheet" href="main.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
         <header>
-            <p class="questionNumber">Question 0/10</p>
+            <p>Question <span class='questionNumber'>0</span>/10</p>
             <h1>Name That Movie</h1>
             <div class="score">
                 <p>Score</p>
@@ -16,31 +18,45 @@
         </header>
 
 
-        <div class="changing-content-box">
-        <button type="button" class="button">Action!</button>
+        <div class="changing-content-box" id="remove">
+        <button type="button" class="nextButton">Action!</button>
         </div>
 
         <div class="changing-content-box">
-            <form action="/action_page.php" >
-                In what movie was this said?
-"And Saint Attila raised the Hand Grenade up on high, saying, 'O Lord, bless this Thy Hand Grenade that, with it, Thou mayest blow Thine enemies into tiny bits... in Thy mercy." <br>
-                <input type="radio"  value="answer1" checked>Constantine
-                <input type="radio"  value="answer2"> Passion of Chirst<br>
-                <input type="radio"  value="correct">Holy Grail
-                <input type="radio"  value="answer3">Life of Brian<br>
+            <form>
+                <label>question</label><br>
+                <img>
+                <input type="radio"  value="answer1" >answer1
+                <input type="radio"  value="answer2">answer2<br>
+                <input type="radio"  value="answer3">answer3
+                <input type="radio"  value="answer4">answer4<br>
                 <br><br>
                 <input type="submit" value="Submit">
             </form> 
         </div>
 
-        <div class="changing-content-box" id="correct">
-            That's right!  <br>
-            <button type="button" class="button">Next!</button>
+        <div class="changing-content-box, hide" id="question">
+            <form>
+                <label>What movie is this picture from?</label><br>
+                <img src ="https://i.redd.it/1mok11qzdbj11.jpg"><br>
+                <input type="radio"  value="answer1" >Constantine
+                <input type="radio"  value="answer2"> Passion of Chirst<br>
+                <input type="radio"  value="correct">Holy Grail
+                <input type="radio"  value="answer3">Life of Brian<br>
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
         </div>
 
-        <div class="changing-content-box" id="incorrect">
-            Woops! You better watch more movies <br>
-            <button type="button" class="button">Next!</button>
+        <div class="changing-content-box, hide" id="correct">
+            <label>That's right!</label><br>
+            <button type="button" class="nextButton">Next!</button>
         </div>
+
+        <div class="changing-content-box, hide" id="incorrect">
+            <label>Woops! You better watch more movies</label><br>
+            <button type="button" class="nextButton">Next!</button>
+        </div>
+        
     </body>
 </html>
