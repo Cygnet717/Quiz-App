@@ -45,13 +45,13 @@ html {
         
    }
 
-   .start {
+   .changing-content-box {
         margin-left: auto;
         margin-right: auto;
         width: fit-content;
         border: 1px solid yellow;
         padding-top: 175px;
         padding-bottom: 175px;
-        padding-left: 300px;
-        padding-right: 300px;
+        padding-left: 400px;
+        padding-right: 400px;
    }
