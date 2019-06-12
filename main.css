@@ -27,14 +27,14 @@ html {
        padding: 50px;
    }
 
-   .qCount-score {
+   header {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         margin-top: 75px;
    }
 
-   .question {
+   .questionNumber {
         height: 100px;
         width: 100px;
     }
@@ -49,7 +49,6 @@ html {
         margin-left: auto;
         margin-right: auto;
         width: fit-content;
-        border: 1px solid yellow;
         padding-top: 175px;
         padding-bottom: 175px;
         padding-left: 400px;
