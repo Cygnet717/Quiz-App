@@ -21,21 +21,37 @@ html {
        border: 2px solid black;
        color: black;
        width: fit-content;
-       margin-left: auto;
+       /*margin-left: auto;
        margin-right: auto;
-       margin-top: 75px;
+       margin-top: 75px;*/
        padding: 50px;
    }
 
-   .question {
+   .qCount-score {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
         margin-top: 75px;
-        margin-left: auto;
-        margin-right: auto;
-        width: fit-content;
    }
 
+   .question {
+        height: 100px;
+        width: 100px;
+    }
+
    .score {
+        height: 125px;
+        width: 100px;
+        
+   }
+
+   .start {
         margin-left: auto;
         margin-right: auto;
         width: fit-content;
+        border: 1px solid yellow;
+        padding-top: 175px;
+        padding-bottom: 175px;
+        padding-left: 300px;
+        padding-right: 300px;
    }
