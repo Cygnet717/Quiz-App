@@ -19,32 +19,37 @@ body {
 
 h1 {
     color: black;
-    width: fit-content;
+    background: url('http://recrea.co/wp-content/uploads/2018/09/silent-movies-background-film-template-intro-opening.jpg') no-repeat center;
     font-family: 'Rakkas', cursive;
-    /*margin-left: auto;
-    margin-right: auto;*/
-    margin-top: 10px;
-    padding: 50px;
+    border: 2px solid red;
+    width: 700px;
+    height: 300px;
 }
 
 header {
     display: flex;
-    font-family: 'Rakkas', cursive;
+    font-family: 'Tillana', cursive;
     font-size: 20px;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 75px;
     align-items: center;
+    border: 1px solid yellow;
 }
 
 .questionNumber {
     height: 100px;
     width: 100px;
+    border: 1px solid green;
+}
+
+.questNum {
+    border: 1px solid yellow;
 }
 
 .score {
     height: 125px;
     width: 100px;
+    border: 1px solid purple;
 }
 
 img {
