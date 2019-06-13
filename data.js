@@ -68,4 +68,6 @@ answer3:"Sleepless in Seattle",
 answer4:"Catch Me if You Can"},
 ];
 
-const correctAnswer =['Holy Grail', 'Lord of the Rings: Two Towers', 'The Terminal', 'Devil Wears Prada', 'Star Wars: A New Hope', 'The Dark Knight', 'Mad Max Fury Road', 'The Hitcher', 'Tombstone', 'You`ve Got Mail']
+const correctAnswer =['Holy Grail', 'Lord of the Rings: Two Towers', 'The Terminal', 'Devil Wears Prada', 'Star Wars: Empire Strikes Back', 'The Dark Knight', 'Mad Max Fury Road', 'The Hitcher', 'Tombstone', 'You`ve Got Mail']
+
+const moviePosters =['https://img.moviepostershop.com/monty-python-and-the-holy-grail-movie-poster-1975-1020465239.jpg', 'https://images-na.ssl-images-amazon.com/images/I/51ArXoRQxTL.jpg', 'https://images-na.ssl-images-amazon.com/images/I/415cHQ67j-L.jpg', 'https://financepitch.com/wp-content/uploads/2018/12/the-devil-wears-prada.jpg', 'https://images-na.ssl-images-amazon.com/images/I/51q8Jb98R4L.jpg', 'http://www.movieposter.com/posters/archive/main/69/MPW-34753', 'https://images-na.ssl-images-amazon.com/images/I/81MJv%2BWKb9L._SL1500_.jpg', 'http://www.impawards.com/2007/posters/hitcher_ver2_xlg.jpg', 'https://images-na.ssl-images-amazon.com/images/I/81PxPKXGiML._SL1500_.jpg', 'https://images-na.ssl-images-amazon.com/images/I/51xptwUc1CL.jpg']
