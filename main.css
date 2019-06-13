@@ -13,52 +13,100 @@ html {
     background-color: black;
   }
 
-  body {
-      color: white;
+body {
+    color: white;
+}
+
+h1 {
+    color: black;
+    width: fit-content;
+    font-family: 'Rakkas', cursive;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin-top: 10px;
+    padding: 50px;
+}
+
+header {
+    display: flex;
+    font-family: 'Rakkas', cursive;
+    font-size: 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 75px;
+    align-items: center;
+}
+
+.questionNumber {
+    height: 100px;
+    width: 100px;
+}
+
+.score {
+    height: 125px;
+    width: 100px;
+}
+
+img {
+    max-height: 150px;
+}
+
+
+.answer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 18px;
+    border: none;
+    width: 800px;
+
+}
+
+.right {
+    width: 400px;
+    
+}
+
+.left {
+    width: 400px;
+    
+}
+
+.nextButton, .answerButton, .restartButton {
+    background-color: blue; 
+    background-image: linear-gradient(to right, rgb(146, 0, 0) , rgb(61, 0, 0)); 
+    border: none;
+    color: white;
+    padding: 15px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
   }
 
-   h1 {
-       border: 2px solid black;
-       color: black;
-       width: fit-content;
-       /*margin-left: auto;
-       margin-right: auto;
-       margin-top: 75px;*/
-       padding: 50px;
-   }
+.choiceLeft {
+    width: 400px;
+    text-align: center;
+    /*border: 2px solid orange;*/
+}
 
-   header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        margin-top: 75px;
-   }
+.choiceRight {
+    width: 400px;
+    text-align: center;
+}
 
-   .questionNumber {
-        height: 100px;
-        width: 100px;
-    }
-
-   .score {
-        height: 125px;
-        width: 100px;
-        
-   }
-
-   img {
-       max-height: 200px;
-   }
-
-   .hide {
-       display: none;
-   }
-
-   .changing-content-box {
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 800px;
-        height: 350px;
-   }
+.changing-content-box {
+    background: rgba(32, 32, 32, 0.3);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Tillana', cursive;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 325px;
+    border-radius: 15px;
+}
