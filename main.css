@@ -18,38 +18,43 @@ body {
 }
 
 h1 {
-    color: black;
-    background: url('http://recrea.co/wp-content/uploads/2018/09/silent-movies-background-film-template-intro-opening.jpg') no-repeat center;
+    color: white;
     font-family: 'Rakkas', cursive;
-    border: 2px solid red;
-    width: 700px;
-    height: 300px;
+    text-align: center;
+    padding:90px;
+    width: 600px;
 }
 
 header {
     display: flex;
+    background: url('http://recrea.co/wp-content/uploads/2018/09/silent-movies-background-film-template-intro-opening.jpg') no-repeat center black;
     font-family: 'Tillana', cursive;
+    position: fixed;
+    top: 0;
+    width: 100%;
     font-size: 20px;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    border: 1px solid yellow;
+    
 }
 
 .questionNumber {
     height: 100px;
     width: 100px;
-    border: 1px solid green;
+    
 }
 
 .questNum {
-    border: 1px solid yellow;
+    border: 4px double red;
+    border-radius: 5px;
+    padding: 3px;
 }
 
 .score {
-    height: 125px;
-    width: 100px;
-    border: 1px solid purple;
+    border: 4px double red;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 img {
@@ -62,21 +67,22 @@ img {
     flex-direction: row;
     justify-content: flex-start;
     font-size: 18px;
-    border: none;
     width: 800px;
-
 }
 
 .right {
     width: 400px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .left {
     width: 400px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
 .nextButton, .answerButton, .restartButton {
     background-color: blue; 
     background-image: linear-gradient(to right, rgb(146, 0, 0) , rgb(61, 0, 0)); 
@@ -88,17 +94,25 @@ img {
     display: inline-block;
     font-size: 16px;
     border-radius: 10px;
+    margin-top: 5px;
   }
 
 .choiceLeft {
-    width: 400px;
-    text-align: center;
-    /*border: 2px solid orange;*/
+    width: 395px;
+    text-align: start;
+    padding: 4px;
+    border: 1px solid #5c0101;
+    border-radius: 10px;
+    background: #5c010196;
 }
 
 .choiceRight {
-    width: 400px;
-    text-align: center;
+    width: 395px;
+    padding: 4px;
+    text-align: start;
+    border: 1px solid #5c0101;
+    border-radius: 10px;
+    background: #5c010196;
 }
 
 .changing-content-box {
@@ -112,6 +126,10 @@ img {
     justify-content: center;
     align-items: center;
     width: 800px;
-    height: 325px;
+    height: 310px;
     border-radius: 15px;
+    border: 2px solid black;
+    position: relative;
+    top: 290px;
+    text-align: center;
 }
