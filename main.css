@@ -88,7 +88,7 @@ img {
     background-image: linear-gradient(to right, rgb(146, 0, 0) , rgb(61, 0, 0)); 
     border: none;
     color: white;
-    padding: 15px ;
+    padding: 10px ;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -127,7 +127,7 @@ img {
     align-items: center;
     width: 800px;
     height: fit-content;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     border-radius: 15px;
     border: 2px solid black;
     position: relative;
@@ -178,7 +178,7 @@ img {
         border: 4px double rgb(148, 0, 0);
         border-radius: 5px;
         padding: 3px;
-        width: 225px;
+        width: fit-content;
         margin-bottom: 10px;
     }
 
@@ -209,7 +209,24 @@ img {
 }
 
 @media screen and (max-width: 850px) {
-     h1 {
+    header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-evenly;
+        background: url('http://recrea.co/wp-content/uploads/2018/09/silent-movies-background-film-template-intro-opening.jpg') no-repeat black;
+        background-size: 350px;
+        background-position: center top;
+        font-family: 'Tillana', cursive;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        font-size: 15px;
+        height: 257px;
+        z-index:1;
+     }
+    
+    h1 {
         position: fixed;
         color: white;
         font-family: 'Rakkas', cursive;
@@ -225,7 +242,6 @@ img {
         background: rgba(32, 32, 32, 0.3);
         margin-left: auto;
         margin-right: auto;
-        margin-top: 50px;
         font-family: 'Tillana', cursive;
         font-size: 20px;
         display: flex;
@@ -238,7 +254,7 @@ img {
         border-radius: 15px;
         border: 2px solid black;
         position: relative;
-        top: 290px;
+        top: 205px;
         text-align: center;
     }
 
