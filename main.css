@@ -95,6 +95,7 @@ img {
     font-size: 16px;
     border-radius: 10px;
     margin-top: 5px;
+    cursor: pointer;
   }
 
 .choiceLeft {
