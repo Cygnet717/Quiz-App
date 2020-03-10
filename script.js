@@ -1,11 +1,9 @@
-console.log('script.js is connected')
 let qNum = 0;
 let scoreRight = 0;
 let scoreWrong = 0;
 
 function restartQuiz() {
   $('#main-box').on('click', '.restartButton', event =>{
-    console.log('restart quiz')
     qNum*=0;
     scoreRight*=0;
     scoreWrong*=0;
@@ -65,7 +63,6 @@ function renderQuestion(){
     <input type="submit" value="Submit" class="answerButton">`);
 
   } else {
-      console.log('ready to give total score');
       finalScore();
   }
 };
@@ -78,10 +75,8 @@ function scoreTally(){
 function handleUserAnswer(){
     $('#main-box').on('submit', function (event) {
         event.preventDefault();
-        console.log ('getting selected input');
         let selected = $('input[name="answer"]:checked');
         let userAnswer = selected.val();
-        console.log (userAnswer);
     if (correctAnswer[qNum-1]===userAnswer){
         $('#main-box').html(`<img src="${moviePosters[qNum-1]}"<label>That\`s right!</label><br><button type="button" class="nextButton">Next!</button>`);
         scoreRight++;
