@@ -39,6 +39,10 @@ header {
     
 }
 
+.words{
+    overflow: auto;
+}
+
 .questionNumber {
     height: 100px;
     width: 100px;
