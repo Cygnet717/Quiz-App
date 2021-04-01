@@ -3,7 +3,8 @@
 }
 
 html { 
-    background: url(http://three.org/ippolito/writing/deck/new_media_presentations/media/movie_theater.jpg) no-repeat center center fixed; 
+    
+    background: url('backgroundimage.jpg'); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -25,7 +26,7 @@ h1 {
 
 header {
     display: flex;
-    background: url('http://recrea.co/wp-content/uploads/2018/09/silent-movies-background-film-template-intro-opening.jpg') no-repeat center black;
+    
     background-size: contain;
     font-family: 'Tillana', cursive;
     position: fixed;
@@ -140,7 +141,7 @@ img {
         display: flex;
         align-items: flex-end;
         justify-content: space-evenly;
-        background: url('http://recrea.co/wp-content/uploads/2018/09/silent-movies-background-film-template-intro-opening.jpg') no-repeat black;
+        
         background-size: 450px;
         background-position: center top;
         font-family: 'Tillana', cursive;
@@ -213,7 +214,7 @@ img {
         display: flex;
         align-items: flex-end;
         justify-content: space-evenly;
-        background: url('http://recrea.co/wp-content/uploads/2018/09/silent-movies-background-film-template-intro-opening.jpg') no-repeat black;
+        
         background-size: 350px;
         background-position: center top;
         font-family: 'Tillana', cursive;
