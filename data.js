@@ -51,7 +51,8 @@ const quizData =[
     }, 
     {
         number:6, 
-        question:' What movie is this picture from?', img: 'https://i.redd.it/1mok11qzdbj11.jpg', 
+        question:' What movie is this picture from?', 
+        img: 'https://i.redd.it/1mok11qzdbj11.jpg', 
         alt:'Picture of Batman standing amongs rubble', 
         answer1:"The Dark Knight", 
         answer2:"Batman Begins", 
@@ -60,7 +61,8 @@ const quizData =[
     },
     {
         number:7, 
-        question:' What movie is this picture from?', img: 'https://cdntdreditorials.azureedge.net/cache/4/2/0/0/c/7/4200c7a223d20ee24bbee8a52e465f246e816b02.jpg', 
+        question:' What movie is this picture from?', 
+        img: 'https://cdntdreditorials.azureedge.net/cache/4/2/0/0/c/7/4200c7a223d20ee24bbee8a52e465f246e816b02.jpg', 
         alt: 'Picture of cars and motercycles driving in a desert and a man playing a fire shooting guitar', 
         answer1:"Death Proof", 
         answer2:"Mad Max Fury Road", 
@@ -69,7 +71,8 @@ const quizData =[
     },
     {
         number:8, 
-        question:' What movie is this picture from?', img: 'https://earofnewtdotcom.files.wordpress.com/2013/12/1a900-the-hitcher-2007-gun.jpg', 
+        question:' What movie is this picture from?', 
+        img: 'https://earofnewtdotcom.files.wordpress.com/2013/12/1a900-the-hitcher-2007-gun.jpg', 
         alt:'Picture of a man in the dirvers seat of a truck cab with a woman pointing a gun at him', 
         answer1:"The Hitcher", 
         answer2:"Hostage", 
@@ -78,7 +81,8 @@ const quizData =[
     },
     {
         number:9, 
-        question:' What movie is this picture from?', img: 'https://www.truewestmagazine.com/wp-content/uploads/2013/07/michael-biehn-and-powers-boothe-post.jpg', 
+        question:' What movie is this picture from?', 
+        img: 'https://www.truewestmagazine.com/wp-content/uploads/2013/07/michael-biehn-and-powers-boothe-post.jpg', 
         alt:'Picture of two men in cowboy outfits in a saloon, one is pointing a gun the other is holding money', 
         answer1:"The Shootist", 
         answer2:"Wyatt Earp", 
@@ -87,7 +91,8 @@ const quizData =[
     },
     {
         number:10, 
-        question:' What movie is this picture from?', img: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/youve-got-mail-1545164594.jpg', 
+        question:' What movie is this picture from?', 
+        img: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/youve-got-mail-1545164594.jpg', 
         alt:'Picture of a man and woman sitting back to back in a cafe', 
         answer1:"You`ve Got Mail", 
         answer2:"Joe vs. the Volcano", 
@@ -110,14 +115,14 @@ const correctAnswer =[
 ]
 
 const moviePosters =[
-    'https://img.moviepostershop.com/monty-python-and-the-holy-grail-movie-poster-1975-1020465239.jpg', 
-    'https://images-na.ssl-images-amazon.com/images/I/51ArXoRQxTL.jpg', 
-    'https://images-na.ssl-images-amazon.com/images/I/415cHQ67j-L.jpg', 
-    'https://financepitch.com/wp-content/uploads/2018/12/the-devil-wears-prada.jpg', 
-    'https://images-na.ssl-images-amazon.com/images/I/51q8Jb98R4L.jpg', 
-    'http://www.movieposter.com/posters/archive/main/69/MPW-34753', 
-    'https://images-na.ssl-images-amazon.com/images/I/81MJv%2BWKb9L._SL1500_.jpg', 
-    'http://www.impawards.com/2007/posters/hitcher_ver2_xlg.jpg', 
-    'https://images-na.ssl-images-amazon.com/images/I/81PxPKXGiML._SL1500_.jpg', 
-    'https://images-na.ssl-images-amazon.com/images/I/51xptwUc1CL.jpg'
+    'Posters/HolyGrailPoster.jpg', 
+    'Posters/LOTRTwoTowersPoster.jpg', 
+    'Posters/TheTerminalPoster.jpg', 
+    'Posters/TheDevilWearsPradaPoster.jpg', 
+    'Posters/SW_EmpireStrikesBackPoster.jpg', 
+    'Posters/TheDarkKnightPoster.jpg', 
+    'Posters/MadMaxFuryRoadPoster.jpg', 
+    'Posters/TheHitcherPoster.jpg', 
+    'Posters/TombstonePoster.jpeg', 
+    'Posters/YouveGotMailPoster.jpg'
 ]
