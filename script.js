@@ -62,7 +62,7 @@ function renderQuestion(){
         <label for="answer4" class="option" tabindex="0">${quizData[qNum-1].answer4}</label>
       </div>
     </div>
-    <input type="submit" value="Submit" class="answerButton">`);
+    <input type="submit" value="Final Answer" class="answerButton">`);
 
   } else {
       finalScore();
