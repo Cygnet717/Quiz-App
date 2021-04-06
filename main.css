@@ -86,39 +86,39 @@ img {
 .answer {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
     font-size: 18px;
     width: 100%;
+}
+
+.leftGroup, .rightGroup{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input[type="radio"]{
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+.option {
+    padding: 4px;
+    border: 1px solid white;
+    background: black;
+    width: 100%;
+}
+
+.option:hover {
     border: 1px solid yellow;
 }
 
-.choiceLeft .choiceRight {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.choiceLeft {
-    width: 395px;
-    text-align: start;
-    padding: 4px;
-    border: 1px solid #5c0101;
-    border-radius: 10px;
-    background: #5c010196;
-}
-
-.choiceRight {
-    width: 395px;
-    padding: 4px;
-    text-align: start;
-    border: 1px solid #5c0101;
-    border-radius: 10px;
-    background: #5c010196;
+input[type="radio"]:checked + .option{
+    background: rgb(2, 85, 110);
 }
 
 .nextButton, .answerButton, .restartButton {
-    background-color: blue; 
     background-image: linear-gradient(to right, rgb(146, 0, 0) , rgb(61, 0, 0)); 
     border: none;
     color: white;
@@ -270,7 +270,7 @@ img {
         width: 50%;
     }
 
-    .choiceLeft {
+    .option {
         width: 80%;
         text-align: start;
         padding: 4px;
@@ -279,7 +279,7 @@ img {
         background: #5c010196;
     }
     
-    .choiceRight {
+    .option {
         width: 80%;
         padding: 4px;
         text-align: start;

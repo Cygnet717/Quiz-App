@@ -47,21 +47,20 @@ function renderQuestion(){
     $('#main-box').html(`<legend class='words'>${quizData[qNum-1].question}</legend>
     <img src="${quizData[qNum-1].img}" alt=${quizData[qNum-1].alt}>
     <div class="answer" role="radiogroup">
-
-      <label class="choiceLeft" tabindex="0">
-        <input type="radio" role="radio" value="${quizData[qNum-1].answer1}" name="answer">${quizData[qNum-1].answer1}
-      </label>
-      <label class="choiceLeft" tabindex="0">
-        <input type="radio" role="radio" value="${quizData[qNum-1].answer2}" name="answer">${quizData[qNum-1].answer2}
-      </label>
-
-      <label class="choiceRight" tabindex="0">
-        <input type="radio" role="radio" value="${quizData[qNum-1].answer3}" name="answer">${quizData[qNum-1].answer3}
-      </label>
-      <label class="choiceRight" tabindex="0">
-        <input type="radio" role="radio" value="${quizData[qNum-1].answer4}" name="answer">${quizData[qNum-1].answer4}
-      </label>
+      <div class="leftGroup">
+        <input type="radio" id="answer1" role="radio" value="${quizData[qNum-1].answer1}" name="answer">
+        <label for="answer1" class="option" tabindex="0">${quizData[qNum-1].answer1}</label>
       
+        <input type="radio" id="answer2" role="radio" value="${quizData[qNum-1].answer2}" name="answer">
+        <label for="answer2" class="option" tabindex="0">${quizData[qNum-1].answer2}</label>
+      </div>
+      <div class="rightGroup">
+        <input type="radio" id="answer3" role="radio" value="${quizData[qNum-1].answer3}" name="answer">
+        <label for="answer3" class="option" tabindex="0">${quizData[qNum-1].answer3}</label>
+        
+        <input type="radio" id="answer4" role="radio" value="${quizData[qNum-1].answer4}" name="answer">
+        <label for="answer4" class="option" tabindex="0">${quizData[qNum-1].answer4}</label>
+      </div>
     </div>
     <input type="submit" value="Submit" class="answerButton">`);
 
