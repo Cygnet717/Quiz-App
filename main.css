@@ -41,17 +41,17 @@ header {
     width: 100%;
 }
 
-.questionNumber {
-    height: 100px;
-    width: 100px;
-    
-}
-
 .questNum, .score {
     text-align: center;
     border: 2px solid white;
     background: black;
     width: 150px;
+}
+
+.questNum{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .changing-content-box {
@@ -136,26 +136,29 @@ input[type="radio"]:checked + .option{
 @media (hover: none) and (pointer: coarse) {
     header{
         align-items: center;
-        height: 80px;
     }
     
     
     h1{
-        padding-top: 11px;
-        font-size: 20px;
-        height: 80px;
+        padding: 10px;
+        font-size: 18px;
     }
 
-    .questNum{
-        padding-top: 17px;
+    .questionNumber{
+        padding: 8px;
     }
 
     .questNum, .score{
-        
-        font-size: 15px;
-        width: 100px;
-        height: 80px;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
+        width: 30%;
+        font-size: 12px;
+    }
+
+    .questNum{
+        flex-direction: row;
     }
 
     .changing-content-box{
