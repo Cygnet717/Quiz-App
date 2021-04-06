@@ -47,18 +47,21 @@ function renderQuestion(){
     $('#main-box').html(`<legend class='words'>${quizData[qNum-1].question}</legend>
     <img src="${quizData[qNum-1].img}" alt=${quizData[qNum-1].alt}>
     <div class="answer" role="radiogroup">
+
       <label class="choiceLeft" tabindex="0">
         <input type="radio" role="radio" value="${quizData[qNum-1].answer1}" name="answer">${quizData[qNum-1].answer1}
       </label>
       <label class="choiceLeft" tabindex="0">
         <input type="radio" role="radio" value="${quizData[qNum-1].answer2}" name="answer">${quizData[qNum-1].answer2}
       </label>
+
       <label class="choiceRight" tabindex="0">
         <input type="radio" role="radio" value="${quizData[qNum-1].answer3}" name="answer">${quizData[qNum-1].answer3}
       </label>
       <label class="choiceRight" tabindex="0">
         <input type="radio" role="radio" value="${quizData[qNum-1].answer4}" name="answer">${quizData[qNum-1].answer4}
       </label>
+      
     </div>
     <input type="submit" value="Submit" class="answerButton">`);
 
