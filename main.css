@@ -168,7 +168,18 @@ input[type="radio"]:checked + .option{
 
     .changing-content-box{
         top: 100px;
-        width: 80%;
+        width: 95%;
         height: 70vh;
+    }
+
+    .option {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img{
+        max-width: 100%;
     }
 }
