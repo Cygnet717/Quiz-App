@@ -1,12 +1,11 @@
-Quiz App Read Me
+# Movie Quiz
 
-files for project:
-index.html
-main.css
-script.js
-data.js
-  
+https://cygnet717.github.io/Quiz-App/
 
-tweaking plans:
-add fading in and out for the questions and resluts
-hover over effects for the answer options and buttons
+## Summary
+
+Challenge your movie knowledge by taking this 10 question quiz.  This is my first full front-end Web Development project with some minor tweaks incorporated since it was made.
+
+## Technology
+
+HTML, jQuery, CSS

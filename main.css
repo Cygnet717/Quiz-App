@@ -112,6 +112,8 @@ input[type="radio"]{
 
 .option:hover {
     border: 1px solid rgb(182, 182, 1);
+    background: yellow;
+    color: black;
 }
 
 input[type="radio"]:checked + .option{
